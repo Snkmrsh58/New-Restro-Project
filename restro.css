@@ -1,0 +1,43 @@
+body {
+
+    height: 100%;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    z-index: 1;
+}
+a{
+    display: inline-block;
+    padding: 10px 45px; 
+    border: solid 5px rgb(200,150,150);
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(200, 150, 150);
+
+}
+div {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 720px;
+    margin-top: 100px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 25px;
+    color: wheat;
+    font-size: 50px;
+    color: yellowgreen;
+    background-color: yellow;
+    opacity: 0.8;
+}
+p{
+    color: white;
+  
+    opacity: 0.7;
+}
